@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warm Heart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+</head>
+<body>
+    <div id="container"
+        <header>
+            <div id="logo">
+                <h1>Warm Heart</h1>
+            </div>
+            <div id="search">
+                <input type="text" class="search-text" placeholder="Pesquisar...">
+                <ul>
+                    <li class="primeiro">
+                        <a id="registrar" href="registrar.html">Registrar-se</a>
+                    </li>
+                    <li class="primeiro">
+                        <a id="entrar" href="">Entrar</a>
+                    </li>
+                </ul>
+                
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                        <a href="">Principais doadores</a>
+                        <a href="">Instituiçoes</a>
+                        <a href="">Urgentes</a>
+                        <a href="">Doe aqui</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div id="principal">
+            <section>
+                <img src="../View/Assets/doacao.jpg" alt="" width="100px">
+                <img src="../View/Assets/doacao2.jfif" alt="" width="100px">
+                <img src="../View/Assets/doacao3.png" alt="" width="100px">
+                <img src="../View/Assets/doacao4.jfif" alt="" width="100px">
+                <p>Conheça aqui as principais causas atualmente! <a href="">Clique aqui</a> para saber mais! </p>
+
+
+            </section>
+
+
+        </div>
+
+        <article id="video">
+            <h3>Conheça nossos contribuidores</h3>
+            <iframe width="310px" height="170px" src="https://www.youtube.com/watch?v=aERu-n0sKbA"
+            title="Youtube Vídeo Player" allow="accelerometer; autoplay;" frameborder="0"></iframe>
+        </article>
+
+        <section id="ongs">
+            <h1>Ongs envolvidas</h1>
+            <a href=""> <img src="../View/Assets/ongs.png" alt="" width="100px"></a>
+            <a href=""><img src="../View/Assets/ongs2.jfif"100px" width="100px"></a>
+            <a href=""> <img src="../View/Assets/ongs3.jfif" alt="" width="100px"></a>
+            <a href=""> <img src="../View/Assets/ongs4.jfif" alt="" width="100px"></a>
+            <p>Clique na ONG que desejar saber mais sobre!</p>
+        </section>
+        
+        </div>
+    
+</body>
+</html>
