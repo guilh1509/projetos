@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar-se</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Preencha os Dados Abaixo!</h1>
+        <p>Nome : <input type="text">>
+        <p>Email : <input type="text">>
+        <p>Telefone : <input type="text">>
+        <p>Data Nascimento : <input type="date" value="dd/mm/aa">>
+        <p>Sexo : <input type="text">>
+        <br>
+        <button>Enviar</button>
+    </div>
+    <section id="inspiracao">
+        <img src="../View/Assets/guerra.jfif" alt="" width="200px">
+        <h1>Ajude as vitimas da guerra ! Basta se registrar e doar</h1>
+        <p>Cada doaçao é valida! Nos ajude a salvar vidas, dsaiojgiojdang9iurajhg9ujrsah9ursajn</p>
+
+        <a href=""><button>Clique aqui para doar!</button></a>
+    </section>
+    
+</body>
+</html>
