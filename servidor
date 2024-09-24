@@ -1,0 +1,35 @@
+from flask import Flask,jsonify,request,abort
+
+app = Flask(__name__)
+
+usuarios = [
+    {"id":1,"nome": "Joao", "email" : "joao@example.com"},
+    {"id":2,"nome": "Maria", "email" : "joao@example.com"},
+
+]
+#funcao gerar proximo id
+def get_next_id():
+    if not usuarios:
+        return 1
+    return max(usuarios["id"] for usuario in usuarios) + 1
+
+#listar todos os usuarios
+@app.route('/users', methods = ['GET'])
+def listar_usuarios():
+    return jsonify(usuarios)
+
+#funcao adicionar usuario
+@app.route('/users', methods = ['POST'])
+def adicionar_usuario():
+    if not request.json or not 'nome' in request.json or not 'email' in request.json:
+        abort(400) 
+    novo_usuario = {
+        "id" : get_next_id(),
+        "nome" : request.json['nome'],
+        "email" : request.json['email']
+    }
+    usuarios.append(novo_usuario)
+    return jsonify(novo_usuario),201
+
+if __name__ == '__main__':
+        app.run(debug = True)
