@@ -11,7 +11,7 @@ usuarios = [
 def get_next_id():
     if not usuarios:
         return 1
-    return max(usuarios["id"] for usuario in usuarios) + 1
+    return max(usuario["id"] for usuario in usuarios) + 1
 
 #listar todos os usuarios
 @app.route('/users', methods = ['GET'])
@@ -30,6 +30,13 @@ def adicionar_usuario():
     }
     usuarios.append(novo_usuario)
     return jsonify(novo_usuario),201
+
+@app.route('/users/<int:id>' , methods = ['GET'])
+def buscar_usuario(id):
+    usuario = next((usuario for usuario in usuarios if usuario["id"] == id),None)
+    if usuario is None:
+          abort(404)
+    return jsonify(usuario)
 
 if __name__ == '__main__':
         app.run(debug = True)
