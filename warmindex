@@ -17,10 +17,10 @@
                 <input type="text" class="search-text" placeholder="Pesquisar...">
                 <ul>
                     <li class="primeiro">
-                        <a id="registrar" href="registrar.html">Registrar-se</a>
+                        <a id="registro" href="registro.html">Registrar-se</a>
                     </li>
                     <li class="primeiro">
-                        <a id="entrar" href="">Entrar</a>
+                        <a id="entrar" href="entrar.html">Entrar</a>
                     </li>
                 </ul>
                 
@@ -29,9 +29,9 @@
                 <ul>
                     <li>
                         <a href="index.html">Home</a>
-                        <a href="">Principais doadores</a>
-                        <a href="">Instituiçoes</a>
-                        <a href="">Urgentes</a>
+                        <a href="principaisdoares.html">Principais doadores</a>
+                        <a href="instituicao.html">Instituiçoes</a>
+                        <a href="urgentes.html">Urgentes</a>
                         <a href="">Doe aqui</a>
                     </li>
                 </ul>
@@ -39,11 +39,11 @@
         </header>
         <div id="principal">
             <section>
-                <img src="../View/Assets/doacao.jpg" alt="" width="100px">
-                <img src="../View/Assets/doacao2.jfif" alt="" width="100px">
-                <img src="../View/Assets/doacao3.png" alt="" width="100px">
-                <img src="../View/Assets/doacao4.jfif" alt="" width="100px">
-                <p>Conheça aqui as principais causas atualmente! <a href="">Clique aqui</a> para saber mais! </p>
+                <img src="../Assets/doacao.jpg" alt="" width="100px">
+                <img src="../Assets/doacao2.jfif" alt="" width="100px">
+                <img src="../Assets/doacao3.png" alt="" width="100px">
+                <img src="../Assets/doacao4.jfif" alt="" width="100px">
+                <p>Conheça aqui as principais causas atualmente! <a href="urgentes.html">Clique aqui</a> para saber mais! </p>
 
 
             </section>
@@ -59,10 +59,10 @@
 
         <section id="ongs">
             <h1>Ongs envolvidas</h1>
-            <a href=""> <img src="../View/Assets/ongs.png" alt="" width="100px"></a>
-            <a href=""><img src="../View/Assets/ongs2.jfif"100px" width="100px"></a>
-            <a href=""> <img src="../View/Assets/ongs3.jfif" alt="" width="100px"></a>
-            <a href=""> <img src="../View/Assets/ongs4.jfif" alt="" width="100px"></a>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> <img src="../Assets/ongs.png" alt="" width="100px"></a>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="../Assets/ongs2.jfif"100px" width="100px"></a>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> <img src="../Assets/ong33.png" alt="" width="100px"></a>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> <img src="../Assets/ong-brasil-logo.webp" alt="" width="100px"></a>
             <p>Clique na ONG que desejar saber mais sobre!</p>
         </section>
         
