@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warm Heart</title>
+</head>
+<body>
+    <h1>Entrar em conta existente</h1>
+
+<div id="search">
+    <input type="text" class="search-text" placeholder="Pesquisar...">
+    <div>
+    
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+                <a href="principaisdoares.html">Principais doadores</a>
+                <a href="instituicao.html">Instituiçoes</a>
+                <a href="urgentes.html">Urgentes</a>
+                <a href="">Doe aqui</a>
+            </li>
+        </ul>
+    </nav>
+    <div id="entrar">   
+        <p>Email : <input type="text"></p>
+        <p>Senha : <input type="text"></p>       
+        
+        <button>Entrar</button>
+        <a href="registro.html">Nao tem conta?Registre aqui</a>
+    </div>
+    <div id="doe">
+        <img src="../Assets/porcodinheiro.png" alt="" width="300px">
+        <h1>Cada centava conta para nós</h1>
+        <button>Doe aqui!</button>
+    
+    </div>
+    
+</body>
+</html>
