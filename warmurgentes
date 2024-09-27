@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warm Heart</title>
+</head>
+<body>
+    <div id="search">
+        <input type="text" class="search-text" placeholder="Pesquisar...">
+        <ul>
+            <li class="primeiro">
+                <a id="registro" href="registro.html">Registrar-se</a>
+            </li>
+            <li class="primeiro">
+                <a id="entrar" href="entrar.html">Entrar</a>
+            </li>
+        </ul>
+    
+    </div>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+                <a href="principaisdoares.html">Principais doadores</a>
+                <a href="instituicao.html">Instituiçoes</a>
+                <a href="urgentes.html">Urgentes</a>
+                <a href="">Doe aqui</a>
+            </li>
+        </ul>
+    </nav>
+
+    <h1>Ajude estas pessoas em grave situaçao,cada centavo valerá demais!</h1>
+
+    <div id="pessoas">
+        <img src="../Assets/cancer.webp" alt="" width="300px">
+        <p>(insira historia) <a href="">Saiba mais...</a></p>
+        
+
+        <img src="../Assets/naosei.jpeg" alt="" width="300px">
+        <p>(insira historia) <a href="">Saiba mais...</a></p>
+        
+        <img src="../Assets/sangue.jpeg" alt="" width="300px">
+        <p>(insira historia) <a href="">Saiba mais...</a></p>
+
+        <a href=""><button>Doe aqui</button></a>
+
+
+
+    </div>
+    
+
+</body>
+</html>
