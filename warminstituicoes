@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warm Heart</title>
+</head>
+<body>
+    
+    <div id="search">
+        <input type="text" class="search-text" placeholder="Pesquisar...">
+        <ul>
+            <li class="primeiro">
+                <a id="registro" href="registro.html">Registrar-se</a>
+            </li>
+            <li class="primeiro">
+                <a id="entrar" href="entrar.html">Entrar</a>
+            </li>
+        </ul>
+    
+    </div>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+                <a href="principaisdoares.html">Principais doadores</a>
+                <a href="instituicao.html">Instituiçoes</a>
+                <a href="urgentes.html">Urgentes</a>
+                <a href="">Doe aqui</a>
+            </li>
+        </ul>
+    </nav>
+    <div id="instituicoes">
+        <h1>Saiba mais sobre as instituiçoes apoiadoras !</h1>
+        <a href="https://www.itau.com.br/contas/conta-corrente?utm_source=google&utm_medium=display&utm_campaign=gl-midia_paga-uniclass-conversao-pmax_mab_tst_regiao&utm_content=google-1st-cpc-cross-audience-uniclass_tst_regiao-dinamico-debito_internacional-ga5744693821&gad_source=1&gclid=EAIaIQobChMIr-aAouLhiAMVXB6tBh1RchqAEAAYASAAEgL47fD_BwE">    <img src="../Assets/itau.png" alt="" width="200px"></a>
+        <p>Este é um dos bancos mais famosos do Brasil,e apoia nosso site!</p>
+        <a href="https://vale.com/pt/home"><img src="../Assets/vale.png" alt="" width="200px"></a>
+        <p>A Vale,mineradora brasileira tambem nos apoia!</p>
+        <a href="https://www.ambev.com.br/"><img src="../Assets/ambev.png" alt="" width="200px"></a>
+        <p>Uma das maiores cervejarias do Brasil tambem nos apoia!</p>
+        <h1>Para receber mais informaçoes de como doar clique no botao abaixo</h1>
+        <img src="../Assets/porcodinheiro.png" alt="" width="300px">
+        <button><a href="">Doe aqui</a></button>
+        
+    <div>
+
+
+
+
+
+    
+</body>
+</html>
