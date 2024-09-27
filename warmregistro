@@ -3,23 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registrar-se</title>
+    <title>Warm Heart</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="normalize.css">
 </head>
 <body>
+ 
+       
+    <input type="text" class="search-text" placeholder="Pesquisar...">
+ 
+    <h1>Preencha os Dados Abaixo!</h1>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+                <a href="principaisdoares.html">Principais doadores</a>
+                <a href="instituicao.html">Instituiçoes</a>
+                <a href="urgentes.html">Urgentes</a>
+                <a href="">Doe aqui</a>
+            </li>
+        </ul>
+    </nav>
     <div id="container">
-        <h1>Preencha os Dados Abaixo!</h1>
+        
         <p>Nome : <input type="text">>
         <p>Email : <input type="text">>
         <p>Telefone : <input type="text">>
         <p>Data Nascimento : <input type="date" value="dd/mm/aa">>
         <p>Sexo : <input type="text">>
         <br>
-        <button>Enviar</button>
+        <button>Registrar</button>
+        <a href="entrar.html">Já possue conta?Clique aqui</a>
     </div>
     <section id="inspiracao">
-        <img src="../View/Assets/guerra.jfif" alt="" width="200px">
+        <img src="../Assets/guerra.jfif" alt="" width="200px">
         <h1>Ajude as vitimas da guerra ! Basta se registrar e doar</h1>
         <p>Cada doaçao é valida! Nos ajude a salvar vidas, dsaiojgiojdang9iurajhg9ujrsah9ursajn</p>
 
