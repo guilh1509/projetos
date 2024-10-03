@@ -1,10 +1,11 @@
 header {
-    color: rgb(54, 55, 56);
+    background-color: rgb(54, 55, 56);
 }
 
 
 #logo h1{
     width: 100px;
+    color: white;
 }
 
 #logo {
@@ -22,16 +23,11 @@ body {
     background-color: rgb(166, 190, 167);
 
 }
-.search-text input {
-    width: 1000px;
-    height: 33px;
-    margin-left: 110px;
-    display: flex; 
-}
 
 ul {
     list-style: none;
     display: flex;
+    margin-left: 455px;
 }
 
 ul a {
@@ -41,4 +37,11 @@ ul a {
 
 li {
     margin-right: 5px;
+}
+
+.search-text {
+    margin-left: 68px;
+    border-radius: 20px;
+    width: 1000px;
+    height: 32px;
 }
