@@ -1,5 +1,7 @@
 header {
-    background-color: rgb(54, 55, 56);
+    background-color: rgb(0, 0, 0);
+    width: 1500px;
+    height: 172px;
 }
 
 
@@ -27,7 +29,7 @@ body {
 ul {
     list-style: none;
     display: flex;
-    margin-left: 455px;
+    margin-left: 185px;
 }
 
 ul a {
@@ -44,4 +46,82 @@ li {
     border-radius: 20px;
     width: 1000px;
     height: 32px;
+}
+
+#principal {
+    background-color: black ;
+    width: 455px;
+}
+
+#principal p {
+    color: white;
+}
+
+/*
+#video {
+    background-color: black;
+    width: 455px;
+    float: right;
+    margin-right: 255px;
+  
+
+}
+
+#video h3 {
+    color: white;
+}
+
+*/
+
+
+#inspiracao img {
+    margin-left: 560px;
+}
+
+#entrar {
+    background-color: black;
+    width: 555px;
+    margin-left: 411px;
+    height: 175px;
+}
+
+
+#entrar p {
+    color: white;
+}
+
+
+#entrar a {
+    color: white
+}
+
+#registrarse {
+    background-color: black;
+    width: 555px;
+    margin-left: 411px;
+}
+
+#registrarse p {
+    color: white;
+}
+
+#registrarse a {
+    color: white;
+}
+
+#ongs {
+    background-color: black;
+    width: 455px;
+}
+
+#ongs a {
+    color: white;
+}
+
+#ongs p {
+    color: white;
+}
+
+#ongs h1 {
+    color: white;
 }
