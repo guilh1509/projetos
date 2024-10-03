@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Warm Heart</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/normalize.css">
+
+
 </head>
 <body>
     
@@ -11,10 +15,10 @@
         <input type="text" class="search-text" placeholder="Pesquisar...">
         <ul>
             <li class="primeiro">
-                <a id="registro" href="registro.html">Registrar-se</a>
+                <a id="registro" href="warmregistro.html">Registrar-se</a>
             </li>
             <li class="primeiro">
-                <a id="entrar" href="entrar.html">Entrar</a>
+                <a id="entrar" href="warmentrar.html">Entrar</a>
             </li>
         </ul>
     
@@ -23,10 +27,18 @@
     <nav>
         <ul>
             <li>
-                <a href="index.html">Home</a>
-                <a href="principaisdoares.html">Principais doadores</a>
-                <a href="instituicao.html">Instituiçoes</a>
-                <a href="urgentes.html">Urgentes</a>
+                <a href="warmindex.html">Home</a>
+            </li>
+            <li>
+                <a href="warmprincipaisdoadores.html">Principais doadores</a>
+            </li>
+            <li>    
+                <a href="warminstituicoes.html">Instituiçoes</a>
+            </li>
+            <li>    
+                <a href="warmurgentes.html">Urgentes</a>
+            </li>
+            <li>    
                 <a href="">Doe aqui</a>
             </li>
         </ul>
