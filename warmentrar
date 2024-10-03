@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Warm Heart</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/normalize.css">
 </head>
 <body>
     <h1>Entrar em conta existente</h1>
@@ -15,10 +17,18 @@
     <nav>
         <ul>
             <li>
-                <a href="index.html">Home</a>
-                <a href="principaisdoares.html">Principais doadores</a>
-                <a href="instituicao.html">Instituiçoes</a>
-                <a href="urgentes.html">Urgentes</a>
+                <a href="warmindex.html">Home</a>
+            </li>
+            <li>
+                <a href="warmprincipaisdoadores.html">Principais doadores</a>
+            </li>
+            <li>    
+                <a href="warminstituicoes.html">Instituiçoes</a>
+            </li>
+            <li>    
+                <a href="warmurgentes.html">Urgentes</a>
+            </li>
+            <li>    
                 <a href="">Doe aqui</a>
             </li>
         </ul>
@@ -28,7 +38,7 @@
         <p>Senha : <input type="text"></p>       
         
         <button>Entrar</button>
-        <a href="registro.html">Nao tem conta?Registre aqui</a>
+        <a href="warmregistro.html">Nao tem conta?Registre aqui</a>
     </div>
     <div id="doe">
         <img src="../Assets/porcodinheiro.png" alt="" width="300px">
