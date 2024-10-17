@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-body{
+body {
     background-color: black;
-    font-family: Poppins,Arial, Helvetica, sans-serif;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
 }
 
-header{
+#header {
     text-transform: uppercase;
     padding: 20px;
     text-align: center;
@@ -13,88 +13,91 @@ header{
     transition: 1s;
 }
 
-header h1:hover{
+#header h1:hover {
     letter-spacing: 30px;
     transition: 1s;
 }
 
-header .back {
+#header .back {
     letter-spacing: 5px;
     text-decoration: none;
     float: left;
 }
 
-header .next {
+#header .back:hover {
+    color: white;
+    text-decoration: line-through;
+}
+
+#header .next {
     letter-spacing: 5px;
     text-decoration: none;
     float: right;
 }
 
-header .back:hover {
+#header .back:hover {
     color: white;
-    text-decoration: line-through;
+    
 }
 
-header .next:hover {
-    color: white;
-}
-
-header h1 {
-    color: rgb(148,79,204);
+.title {
+    color: rgb(148, 79, 204);
     font-weight: 200;
 }
 
-aside h1{
-    color:rgb(148,79,204);
+.titleEnergy {
+    color: rgb(148, 79, 204);
     font-weight: 200;
     font-size: 1.9em;
     letter-spacing: 2px;
     text-align: center;
 }
 
-aside {
+#content {
     width: 450px;
-    height: 200px;
+    height: 300px;
     color: white;
     text-align: center;
-    padding: 100px;
+    padding: 30px;
     margin-left: 10%;
     margin-top: 5%;
     font-weight: 200;
     float: left;
 }
 
-article{
+#image {
     margin-top: 60px;
     float: left;
-    margin-left: 5%;
+    margin-left: 2%;
     padding: 50px;
 }
 
-img{
-    width: 250px;
-    filter: drop-shadow(0px 5px 20px rgb(148,79,204));
+img {
+    width: 160px;
+    filter: drop-shadow(0px 5px 5px rgb(148, 79, 204));
     transition: 1s;
 }
 
-img:hover{
-    filter: drop-shadow(0px 25px 25px rgb(148,79,204));
+img:hover {
+    filter: drop-shadow(0px 25px 25px rgb(148, 79, 204));
     transition: 1s;
 }
 
 button {
-    background: linear-gradient(rgb(148,79,204),rgb(63,2,112));
+    background: linear-gradient(rgb(148, 79, 204), rgb(63, 2, 112));
+    border: 1px solid white;
     color: white;
     text-transform: uppercase;
-    border: 1px solid white;
-    font-size: 1.2em;
+    letter-spacing: 5px;
+    font-size: 1.3em;
     width: 100%;
     height: 50px;
     display: block;
     margin-top: 10%;
+    transition: 1s;
 }
 
-button:hover{
+button:hover {
     letter-spacing: 15px;
 }
 
@@ -103,16 +106,50 @@ p {
     letter-spacing: 1px;
 }
 
-@media only screen and (min-width: 400px) and (max-width:600px) {
-    header {
+@media only screen and (min-width: 400px) and (max-width: 600px) {
+    #header {
         padding: 20px;
         text-align: center;
         letter-spacing: 10px;
         transition: 1s;
     }
 
-    header h1:hover{
+    #header h1:hover {
         letter-spacing: 10px;
         transition: 1s;
+    }
+
+    .title {
+        font-size: 1.5em;
+    }
+
+    #content {
+        margin: auto;
+        align-items: center;
+        padding: 0;
+        margin-top: 0;
+        float: none;
+        justify-content: center;
+        font-size: 0.8em;
+        width: 360px;
+        height: 300px;
+    }
+
+    #image {
+        margin: auto;
+        float: none;
+        text-align: center;
+        margin-top: 10%;
+        padding: 0;
+    }
+
+    #image img{
+        width: 140px;
+    }
+
+    #image img:hover {
+        width: 140px;
+        filter: drop-shadow(0px 25px 25px rgb(148,79,204));
+
     }
 }
